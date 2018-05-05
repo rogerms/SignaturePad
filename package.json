@@ -1,0 +1,19 @@
+{
+  "name": "signature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "roger",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.3.1",
+    "@types/signature_pad": "0.0.30",
+    "finalhandler": "^1.1.1",
+    "router": "^1.3.2",
+    "signature_pad": "^2.3.2",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}

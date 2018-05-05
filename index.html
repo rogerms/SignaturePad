@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<h3>Hello Canvas</h3>
+	<div>
+		<canvas id="signature_pad" style="background-color: beige; width: 300;"></canvas>
+	</div>
+	<div style="background-color: aqua;">
+		<!-- <img id="signature_img" style="background-color: transparent"/> -->
+		<canvas id="signature_pad2" style="background-color: thistle"></canvas>
+	</div>
+	<button onclick="saveSignature()">Save</button>
+	<button onclick="saveToPDF()">PDF</button>
+	<button onclick="clearButtonClicked()">Clear</button>
+	<button onclick="undoButtonClicked()">Undo</button>
+	<script src="https://cdn.jsdelivr.net/npm/signature_pad@2.3.2/dist/signature_pad.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+</body>
+</html>
